@@ -54,8 +54,7 @@ body {
     opacity: 1;
 }
 
-/*Quienes somos*/
-
+/* Quienes somos */
 #WhoWeAre {
     background-color: black;
 }
@@ -93,7 +92,7 @@ body {
     text-align: center;
     font-weight: 400;
     margin-bottom: 1rem;
-    background-color: purple;
+    background-color: rgb(37, 7, 37);
 }
 
 .card .icon-bottom {
@@ -102,7 +101,7 @@ body {
     text-align: center;
     font-weight: 700;
     margin-top: 1rem;
-    background-color: purple;
+    background-color: rgb(37, 7, 37);
 }
 
 .card .card-text {
@@ -169,7 +168,7 @@ body {
     font-weight: 700;
     margin-bottom: 1rem;
     color: white;
-    background-color: purple;
+    background-color: rgb(37, 7, 37);
     border-radius: 0 0 0.5rem 0.5rem;
 }
 
@@ -178,7 +177,7 @@ body {
     font-weight: 400;
     text-align: start;
     color: white;
-    background-color: purple;
+    background-color: rgb(37, 7, 37);
     border-radius: 0 0 0.5rem 0.5rem;
 }
 
@@ -187,7 +186,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: purple;
+    background-color: rgb(37, 7, 37);
     border-radius: 0 0 0.5rem 0.5rem;
 }
 
@@ -227,7 +226,7 @@ body {
 }
 
 #contacto button {
-    background-color: purple;
+    background-color: rgb(37, 7, 37);
     border: none;
 }
 
@@ -250,7 +249,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: purple;
+    background-color: rgb(37, 7, 37);
     color: white;
     padding: 0.5rem 0;
     text-align: center;
@@ -287,31 +286,43 @@ body {
     .navbar-custom .navbar-nav .nav-link {
         padding: 10px;
     }
+
+    #WhoWeAre {
+        display: none;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .footer-name h2 {
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    .footer .footer-icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .footer .footer-icons a {
+        margin: 0.5rem;
+        color: white;
+    }
+
+    /* Ocultar la sección de íconos en móvil */
+    .card-icons {
+        display: none;
+    }
 }
 
-#WhoWeAre {
-    display: none;
-}
-
-.footer .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer .footer-name h2 {
-    margin-bottom: 1rem;
-    color: white;
-}
-
-.footer .footer-icons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.footer .footer-icons a {
-    margin: 0.5rem;
-    color: white;
+/* Mostrar la sección de íconos en pantallas grandes */
+@media (min-width: 768px) {
+    .card-icons {
+        display: block;
+    }
 }
