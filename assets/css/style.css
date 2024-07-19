@@ -14,7 +14,7 @@ body {
 }
 
 .navbar-custom.navbar-interact {
-    background-color: #56066699;
+    background-color: #2f9cbd;
     opacity: 1;
 }
 
@@ -92,7 +92,7 @@ body {
     text-align: center;
     font-weight: 400;
     margin-bottom: 1rem;
-    background-color: rgb(37, 7, 37);
+    background-color: #2f9cbd;
 }
 
 .card .icon-bottom {
@@ -101,7 +101,7 @@ body {
     text-align: center;
     font-weight: 700;
     margin-top: 1rem;
-    background-color: rgb(37, 7, 37);
+    background-color: #2f9cbd;
 }
 
 .card .card-text {
@@ -168,7 +168,7 @@ body {
     font-weight: 700;
     margin-bottom: 1rem;
     color: white;
-    background-color: rgb(37, 7, 37);
+    background-color: #2f9cbd;
     border-radius: 0 0 0.5rem 0.5rem;
 }
 
@@ -177,7 +177,7 @@ body {
     font-weight: 400;
     text-align: start;
     color: white;
-    background-color: rgb(37, 7, 37);
+    background-color: #2f9cbd;
     border-radius: 0 0 0.5rem 0.5rem;
 }
 
@@ -186,7 +186,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(37, 7, 37);
+    background-color: #2f9cbd;
     border-radius: 0 0 0.5rem 0.5rem;
 }
 
@@ -226,7 +226,7 @@ body {
 }
 
 #contacto button {
-    background-color: rgb(37, 7, 37);
+    background-color: #2f9cbd;
     border: none;
 }
 
@@ -249,7 +249,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: rgb(37, 7, 37);
+    background-color: #2f9cbd;
     color: white;
     padding: 0.5rem 0;
     text-align: center;
